@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADE CHECKER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:wght@500&family=Sen:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="w-50 mx-auto text-center row  mt-5">
+        <div id="Parent">
+            <div id="Children">
+
+                <marquee behavior="" direction="left" class="text-white" id="marq"><em>🎊Welcome to the certified grade checker.⚖</em></marquee>
+
+                <h2 class="fw-bolder text-warning mt-4 pb-5">CERTIFIED GRADING SYSTEM</h2>
+                
+                <div class="input-group input-group-lg mb-5 w-75 mx-auto">
+                    <input type="number" class="form-control" id="inputScore" placeholder="Enter your Score!" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-success" type="button" id="button-addon2" onclick="checkScore()">Check</button>
+                </div>
+                <div class="input-group input-group-lg bg-light text-center p-4 border-rounded w-50 mx-auto rounded"id="display">
+                  </div>
+                  
+                
+                
+
+            </div>
+
+        </div>
+    </section>
+
+    
+</body>
+</html>
